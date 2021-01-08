@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5607F5F525A0AFEA00F7D4E1 /* GLPostBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F5F425A0AFEA00F7D4E1 /* GLPostBasic.m */; };
+		5607F5F725A0D79D00F7D4E1 /* GLPostBasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F5F625A0D79C00F7D4E1 /* GLPostBasicTableViewController.m */; };
+		5607F5FA25A1CAD900F7D4E1 /* GLPostDetailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F5F925A1CAD900F7D4E1 /* GLPostDetailManager.m */; };
+		5607F5FD25A1CC9B00F7D4E1 /* GLCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F5FC25A1CC9B00F7D4E1 /* GLCommentTableViewCell.m */; };
+		5607F60025A1DB8C00F7D4E1 /* GLSubCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F5FF25A1DB8C00F7D4E1 /* GLSubCommentTableViewCell.m */; };
+		5607F60625A2D42800F7D4E1 /* GLUserBaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F60525A2D42800F7D4E1 /* GLUserBaseInfo.m */; };
+		5607F60925A2D43F00F7D4E1 /* GLUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F60825A2D43F00F7D4E1 /* GLUserInfo.m */; };
+		5607F61525A7377700F7D4E1 /* GLNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F61425A7377700F7D4E1 /* GLNotice.m */; };
+		5607F61825A746A100F7D4E1 /* GLNoticeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F61725A746A100F7D4E1 /* GLNoticeTableViewCell.m */; };
+		5607F62725A7FE2200F7D4E1 /* GLAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F61D25A7FE2200F7D4E1 /* GLAccountViewController.m */; };
+		5607F62825A7FE2200F7D4E1 /* GLUserPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F61F25A7FE2200F7D4E1 /* GLUserPageViewController.m */; };
+		5607F62925A7FE2200F7D4E1 /* GLUserListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F62025A7FE2200F7D4E1 /* GLUserListTableViewController.m */; };
+		5607F62A25A7FE2200F7D4E1 /* GLUserHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F62225A7FE2200F7D4E1 /* GLUserHomePageViewController.m */; };
+		5607F62B25A7FE2200F7D4E1 /* GLSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F62625A7FE2200F7D4E1 /* GLSettingTableViewController.m */; };
+		5607F63125A832ED00F7D4E1 /* GLPostCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5607F63025A832ED00F7D4E1 /* GLPostCommentViewController.m */; };
+		560BE59E259F450700369103 /* GLPostSubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560BE59D259F450700369103 /* GLPostSubmitViewController.m */; };
+		560BE5A1259F654500369103 /* GLPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 560BE5A0259F654500369103 /* GLPost.m */; };
+		560BE5A7259F655F00369103 /* GLComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 560BE5A6259F655F00369103 /* GLComment.m */; };
+		560BE5AA259F658200369103 /* GLSubComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 560BE5A9259F658200369103 /* GLSubComment.m */; };
+		560BE5B6259F7DF600369103 /* GLPostBasicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 560BE5B5259F7DF600369103 /* GLPostBasicManager.m */; };
+		560BE5B9259F7E2A00369103 /* GLPostSubmitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 560BE5B8259F7E2A00369103 /* GLPostSubmitManager.m */; };
+		560F10B525A846500066ACB9 /* GLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560F10B425A846500066ACB9 /* GLTabBarViewController.m */; };
+		564A40BD259A4E8600DB456B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A40BC259A4E8600DB456B /* AppDelegate.m */; };
+		564A40C5259A4E8800DB456B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A40C4259A4E8800DB456B /* Assets.xcassets */; };
+		564A40CB259A4E8800DB456B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A40CA259A4E8800DB456B /* main.m */; };
+		564A40FC259AF90600DB456B /* GLMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A40FB259AF90600DB456B /* GLMainPageViewController.m */; };
+		564A40FF259AF95000DB456B /* GLPostBasicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A40FE259AF95000DB456B /* GLPostBasicTableViewCell.m */; };
+		564A4102259AF9F800DB456B /* GLNoticePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4101259AF9F800DB456B /* GLNoticePageViewController.m */; };
+		564A4110259AFC4900DB456B /* GLUserAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A410F259AFC4900DB456B /* GLUserAPI.m */; };
+		564A4113259AFC5500DB456B /* GLPostAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4112259AFC5500DB456B /* GLPostAPI.m */; };
+		564A4116259AFC6300DB456B /* GLNoticeAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4115259AFC6300DB456B /* GLNoticeAPI.m */; };
+		564A4119259AFC7100DB456B /* GLTagAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4118259AFC7100DB456B /* GLTagAPI.m */; };
+		564A411C259AFC8400DB456B /* GLAchievementAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A411B259AFC8400DB456B /* GLAchievementAPI.m */; };
+		564A411F259AFC9D00DB456B /* Utilites.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A411E259AFC9D00DB456B /* Utilites.m */; };
+		564A4125259BA69C00DB456B /* GLPostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4124259BA69C00DB456B /* GLPostDetailViewController.m */; };
+		564A4131259BB38F00DB456B /* GLGlobalConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4130259BB38F00DB456B /* GLGlobalConfigurator.m */; };
+		564A4134259BB39B00DB456B /* GLUserConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4133259BB39B00DB456B /* GLUserConfigurator.m */; };
+		564A4137259BB3AC00DB456B /* GLPostConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4136259BB3AC00DB456B /* GLPostConfigurator.m */; };
+		564A413A259BB3BD00DB456B /* GLNoticeConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4139259BB3BD00DB456B /* GLNoticeConfigurator.m */; };
+		564A413D259BB77300DB456B /* GLNoticeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A413C259BB77300DB456B /* GLNoticeTableViewController.m */; };
+		564A4149259CB13500DB456B /* GLAccountConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4148259CB13500DB456B /* GLAccountConfigurator.m */; };
+		564A4152259CD0A700DB456B /* GLUserListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4151259CD0A700DB456B /* GLUserListTableViewCell.m */; };
+		564A4158259CE0A200DB456B /* GLUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4157259CE0A200DB456B /* GLUserManager.m */; };
+		564A415B259CE0EE00DB456B /* GLAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A415A259CE0EE00DB456B /* GLAPI.m */; };
+		564A4188259E4DE100DB456B /* GLNoticeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 564A4187259E4DE100DB456B /* GLNoticeManager.m */; };
+		70D7F1C9E990B4D35042A7FB /* libPods-Geeklanet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB06259716AA5EAED48BCA5 /* libPods-Geeklanet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5607F5F325A0AFEA00F7D4E1 /* GLPostBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostBasic.h; sourceTree = "<group>"; };
+		5607F5F425A0AFEA00F7D4E1 /* GLPostBasic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostBasic.m; sourceTree = "<group>"; };
+		5607F5F625A0D79C00F7D4E1 /* GLPostBasicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPostBasicTableViewController.m; sourceTree = "<group>"; };
+		5607F5F825A1CAD900F7D4E1 /* GLPostDetailManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostDetailManager.h; sourceTree = "<group>"; };
+		5607F5F925A1CAD900F7D4E1 /* GLPostDetailManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostDetailManager.m; sourceTree = "<group>"; };
+		5607F5FB25A1CC9B00F7D4E1 /* GLCommentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLCommentTableViewCell.h; sourceTree = "<group>"; };
+		5607F5FC25A1CC9B00F7D4E1 /* GLCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCommentTableViewCell.m; sourceTree = "<group>"; };
+		5607F5FE25A1DB8C00F7D4E1 /* GLSubCommentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSubCommentTableViewCell.h; sourceTree = "<group>"; };
+		5607F5FF25A1DB8C00F7D4E1 /* GLSubCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSubCommentTableViewCell.m; sourceTree = "<group>"; };
+		5607F60425A2D42800F7D4E1 /* GLUserBaseInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUserBaseInfo.h; sourceTree = "<group>"; };
+		5607F60525A2D42800F7D4E1 /* GLUserBaseInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUserBaseInfo.m; sourceTree = "<group>"; };
+		5607F60725A2D43F00F7D4E1 /* GLUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUserInfo.h; sourceTree = "<group>"; };
+		5607F60825A2D43F00F7D4E1 /* GLUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUserInfo.m; sourceTree = "<group>"; };
+		5607F61325A7377700F7D4E1 /* GLNotice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNotice.h; sourceTree = "<group>"; };
+		5607F61425A7377700F7D4E1 /* GLNotice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNotice.m; sourceTree = "<group>"; };
+		5607F61625A746A000F7D4E1 /* GLNoticeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNoticeTableViewCell.h; sourceTree = "<group>"; };
+		5607F61725A746A100F7D4E1 /* GLNoticeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNoticeTableViewCell.m; sourceTree = "<group>"; };
+		5607F61D25A7FE2200F7D4E1 /* GLAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAccountViewController.m; sourceTree = "<group>"; };
+		5607F61E25A7FE2200F7D4E1 /* GLUserHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUserHomePageViewController.h; sourceTree = "<group>"; };
+		5607F61F25A7FE2200F7D4E1 /* GLUserPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLUserPageViewController.m; sourceTree = "<group>"; };
+		5607F62025A7FE2200F7D4E1 /* GLUserListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLUserListTableViewController.m; sourceTree = "<group>"; };
+		5607F62125A7FE2200F7D4E1 /* GLSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSettingTableViewController.h; sourceTree = "<group>"; };
+		5607F62225A7FE2200F7D4E1 /* GLUserHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLUserHomePageViewController.m; sourceTree = "<group>"; };
+		5607F62325A7FE2200F7D4E1 /* GLAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAccountViewController.h; sourceTree = "<group>"; };
+		5607F62425A7FE2200F7D4E1 /* GLUserListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUserListTableViewController.h; sourceTree = "<group>"; };
+		5607F62525A7FE2200F7D4E1 /* GLUserPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUserPageViewController.h; sourceTree = "<group>"; };
+		5607F62625A7FE2200F7D4E1 /* GLSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSettingTableViewController.m; sourceTree = "<group>"; };
+		5607F62F25A832ED00F7D4E1 /* GLPostCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostCommentViewController.h; sourceTree = "<group>"; };
+		5607F63025A832ED00F7D4E1 /* GLPostCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostCommentViewController.m; sourceTree = "<group>"; };
+		560BE59C259F450700369103 /* GLPostSubmitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostSubmitViewController.h; sourceTree = "<group>"; };
+		560BE59D259F450700369103 /* GLPostSubmitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostSubmitViewController.m; sourceTree = "<group>"; };
+		560BE59F259F654500369103 /* GLPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPost.h; sourceTree = "<group>"; };
+		560BE5A0259F654500369103 /* GLPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPost.m; sourceTree = "<group>"; };
+		560BE5A5259F655F00369103 /* GLComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLComment.h; sourceTree = "<group>"; };
+		560BE5A6259F655F00369103 /* GLComment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLComment.m; sourceTree = "<group>"; };
+		560BE5A8259F658200369103 /* GLSubComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLSubComment.h; sourceTree = "<group>"; };
+		560BE5A9259F658200369103 /* GLSubComment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLSubComment.m; sourceTree = "<group>"; };
+		560BE5B4259F7DF600369103 /* GLPostBasicManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostBasicManager.h; sourceTree = "<group>"; };
+		560BE5B5259F7DF600369103 /* GLPostBasicManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostBasicManager.m; sourceTree = "<group>"; };
+		560BE5B7259F7E2A00369103 /* GLPostSubmitManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostSubmitManager.h; sourceTree = "<group>"; };
+		560BE5B8259F7E2A00369103 /* GLPostSubmitManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostSubmitManager.m; sourceTree = "<group>"; };
+		560F10B325A846500066ACB9 /* GLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTabBarViewController.h; sourceTree = "<group>"; };
+		560F10B425A846500066ACB9 /* GLTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLTabBarViewController.m; sourceTree = "<group>"; };
+		564A40B8259A4E8600DB456B /* Geeklanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geeklanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A40BB259A4E8600DB456B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		564A40BC259A4E8600DB456B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		564A40C4259A4E8800DB456B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564A40C9259A4E8800DB456B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564A40CA259A4E8800DB456B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		564A40F7259AF8E600DB456B /* GLPostBasicTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostBasicTableViewController.h; sourceTree = "<group>"; };
+		564A40FA259AF90600DB456B /* GLMainPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLMainPageViewController.h; sourceTree = "<group>"; };
+		564A40FB259AF90600DB456B /* GLMainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLMainPageViewController.m; sourceTree = "<group>"; };
+		564A40FD259AF95000DB456B /* GLPostBasicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostBasicTableViewCell.h; sourceTree = "<group>"; };
+		564A40FE259AF95000DB456B /* GLPostBasicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostBasicTableViewCell.m; sourceTree = "<group>"; };
+		564A4100259AF9F800DB456B /* GLNoticePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNoticePageViewController.h; sourceTree = "<group>"; };
+		564A4101259AF9F800DB456B /* GLNoticePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNoticePageViewController.m; sourceTree = "<group>"; };
+		564A410E259AFC4900DB456B /* GLUserAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUserAPI.h; sourceTree = "<group>"; };
+		564A410F259AFC4900DB456B /* GLUserAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUserAPI.m; sourceTree = "<group>"; };
+		564A4111259AFC5500DB456B /* GLPostAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostAPI.h; sourceTree = "<group>"; };
+		564A4112259AFC5500DB456B /* GLPostAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostAPI.m; sourceTree = "<group>"; };
+		564A4114259AFC6300DB456B /* GLNoticeAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNoticeAPI.h; sourceTree = "<group>"; };
+		564A4115259AFC6300DB456B /* GLNoticeAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNoticeAPI.m; sourceTree = "<group>"; };
+		564A4117259AFC7100DB456B /* GLTagAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTagAPI.h; sourceTree = "<group>"; };
+		564A4118259AFC7100DB456B /* GLTagAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLTagAPI.m; sourceTree = "<group>"; };
+		564A411A259AFC8400DB456B /* GLAchievementAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAchievementAPI.h; sourceTree = "<group>"; };
+		564A411B259AFC8400DB456B /* GLAchievementAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAchievementAPI.m; sourceTree = "<group>"; };
+		564A411D259AFC9D00DB456B /* Utilites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilites.h; sourceTree = "<group>"; };
+		564A411E259AFC9D00DB456B /* Utilites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilites.m; sourceTree = "<group>"; };
+		564A4123259BA69C00DB456B /* GLPostDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostDetailViewController.h; sourceTree = "<group>"; };
+		564A4124259BA69C00DB456B /* GLPostDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostDetailViewController.m; sourceTree = "<group>"; };
+		564A412F259BB38F00DB456B /* GLGlobalConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLGlobalConfigurator.h; sourceTree = "<group>"; };
+		564A4130259BB38F00DB456B /* GLGlobalConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLGlobalConfigurator.m; sourceTree = "<group>"; };
+		564A4132259BB39B00DB456B /* GLUserConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUserConfigurator.h; sourceTree = "<group>"; };
+		564A4133259BB39B00DB456B /* GLUserConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUserConfigurator.m; sourceTree = "<group>"; };
+		564A4135259BB3AC00DB456B /* GLPostConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPostConfigurator.h; sourceTree = "<group>"; };
+		564A4136259BB3AC00DB456B /* GLPostConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPostConfigurator.m; sourceTree = "<group>"; };
+		564A4138259BB3BD00DB456B /* GLNoticeConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNoticeConfigurator.h; sourceTree = "<group>"; };
+		564A4139259BB3BD00DB456B /* GLNoticeConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNoticeConfigurator.m; sourceTree = "<group>"; };
+		564A413B259BB77300DB456B /* GLNoticeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNoticeTableViewController.h; sourceTree = "<group>"; };
+		564A413C259BB77300DB456B /* GLNoticeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNoticeTableViewController.m; sourceTree = "<group>"; };
+		564A4147259CB13500DB456B /* GLAccountConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAccountConfigurator.h; sourceTree = "<group>"; };
+		564A4148259CB13500DB456B /* GLAccountConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAccountConfigurator.m; sourceTree = "<group>"; };
+		564A4150259CD0A700DB456B /* GLUserListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUserListTableViewCell.h; sourceTree = "<group>"; };
+		564A4151259CD0A700DB456B /* GLUserListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUserListTableViewCell.m; sourceTree = "<group>"; };
+		564A4156259CE0A200DB456B /* GLUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUserManager.h; sourceTree = "<group>"; };
+		564A4157259CE0A200DB456B /* GLUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUserManager.m; sourceTree = "<group>"; };
+		564A4159259CE0EE00DB456B /* GLAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAPI.h; sourceTree = "<group>"; };
+		564A415A259CE0EE00DB456B /* GLAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAPI.m; sourceTree = "<group>"; };
+		564A4186259E4DE100DB456B /* GLNoticeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNoticeManager.h; sourceTree = "<group>"; };
+		564A4187259E4DE100DB456B /* GLNoticeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNoticeManager.m; sourceTree = "<group>"; };
+		7AB06259716AA5EAED48BCA5 /* libPods-Geeklanet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Geeklanet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F00469AEFC2E9228AA471BF /* Pods-Geeklanet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geeklanet.release.xcconfig"; path = "Target Support Files/Pods-Geeklanet/Pods-Geeklanet.release.xcconfig"; sourceTree = "<group>"; };
+		E5B9826465D10F6783F4F3FE /* Pods-Geeklanet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geeklanet.debug.xcconfig"; path = "Target Support Files/Pods-Geeklanet/Pods-Geeklanet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564A40B5259A4E8600DB456B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D7F1C9E990B4D35042A7FB /* libPods-Geeklanet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DECDDD1EC6B7BE7B7CDECBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5B9826465D10F6783F4F3FE /* Pods-Geeklanet.debug.xcconfig */,
+				7F00469AEFC2E9228AA471BF /* Pods-Geeklanet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5607F61C25A7FE2200F7D4E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5607F62525A7FE2200F7D4E1 /* GLUserPageViewController.h */,
+				5607F61F25A7FE2200F7D4E1 /* GLUserPageViewController.m */,
+				5607F62325A7FE2200F7D4E1 /* GLAccountViewController.h */,
+				5607F61D25A7FE2200F7D4E1 /* GLAccountViewController.m */,
+				5607F61E25A7FE2200F7D4E1 /* GLUserHomePageViewController.h */,
+				5607F62225A7FE2200F7D4E1 /* GLUserHomePageViewController.m */,
+				5607F62425A7FE2200F7D4E1 /* GLUserListTableViewController.h */,
+				5607F62025A7FE2200F7D4E1 /* GLUserListTableViewController.m */,
+				5607F62125A7FE2200F7D4E1 /* GLSettingTableViewController.h */,
+				5607F62625A7FE2200F7D4E1 /* GLSettingTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		564A40AF259A4E8600DB456B = {
+			isa = PBXGroup;
+			children = (
+				564A40BA259A4E8600DB456B /* Geeklanet */,
+				564A40B9259A4E8600DB456B /* Products */,
+				2DECDDD1EC6B7BE7B7CDECBF /* Pods */,
+				E04248808B5667132968F2A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		564A40B9259A4E8600DB456B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564A40B8259A4E8600DB456B /* Geeklanet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564A40BA259A4E8600DB456B /* Geeklanet */ = {
+			isa = PBXGroup;
+			children = (
+				564A40D1259A515E00DB456B /* AppEntry */,
+				564A40D4259AD9FE00DB456B /* Config */,
+				564A40D5259ADA0F00DB456B /* Network */,
+				564A40D3259AD99600DB456B /* Feature */,
+				564A40D6259ADA1E00DB456B /* Utilites */,
+				564A40D2259A517E00DB456B /* Resource */,
+			);
+			path = Geeklanet;
+			sourceTree = "<group>";
+		};
+		564A40D1259A515E00DB456B /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				564A40CA259A4E8800DB456B /* main.m */,
+				564A40BB259A4E8600DB456B /* AppDelegate.h */,
+				564A40BC259A4E8600DB456B /* AppDelegate.m */,
+				564A40C9259A4E8800DB456B /* Info.plist */,
+				560F10B325A846500066ACB9 /* GLTabBarViewController.h */,
+				560F10B425A846500066ACB9 /* GLTabBarViewController.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		564A40D2259A517E00DB456B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				564A40C4259A4E8800DB456B /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		564A40D3259AD99600DB456B /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				564A40D9259AF12F00DB456B /* Post */,
+				564A40D8259AF11D00DB456B /* Notice */,
+				564A40D7259AF11100DB456B /* User */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		564A40D4259AD9FE00DB456B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				564A412F259BB38F00DB456B /* GLGlobalConfigurator.h */,
+				564A4130259BB38F00DB456B /* GLGlobalConfigurator.m */,
+				564A4132259BB39B00DB456B /* GLUserConfigurator.h */,
+				564A4133259BB39B00DB456B /* GLUserConfigurator.m */,
+				564A4135259BB3AC00DB456B /* GLPostConfigurator.h */,
+				564A4136259BB3AC00DB456B /* GLPostConfigurator.m */,
+				564A4138259BB3BD00DB456B /* GLNoticeConfigurator.h */,
+				564A4139259BB3BD00DB456B /* GLNoticeConfigurator.m */,
+				564A4147259CB13500DB456B /* GLAccountConfigurator.h */,
+				564A4148259CB13500DB456B /* GLAccountConfigurator.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		564A40D5259ADA0F00DB456B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				564A4159259CE0EE00DB456B /* GLAPI.h */,
+				564A415A259CE0EE00DB456B /* GLAPI.m */,
+				564A410E259AFC4900DB456B /* GLUserAPI.h */,
+				564A410F259AFC4900DB456B /* GLUserAPI.m */,
+				564A4111259AFC5500DB456B /* GLPostAPI.h */,
+				564A4112259AFC5500DB456B /* GLPostAPI.m */,
+				564A4114259AFC6300DB456B /* GLNoticeAPI.h */,
+				564A4115259AFC6300DB456B /* GLNoticeAPI.m */,
+				564A4117259AFC7100DB456B /* GLTagAPI.h */,
+				564A4118259AFC7100DB456B /* GLTagAPI.m */,
+				564A411A259AFC8400DB456B /* GLAchievementAPI.h */,
+				564A411B259AFC8400DB456B /* GLAchievementAPI.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		564A40D6259ADA1E00DB456B /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				564A411D259AFC9D00DB456B /* Utilites.h */,
+				564A411E259AFC9D00DB456B /* Utilites.m */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		564A40D7259AF11100DB456B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				5607F61C25A7FE2200F7D4E1 /* Controller */,
+				564A40EA259AF4D700DB456B /* View */,
+				564A40E9259AF4D000DB456B /* Model */,
+				564A40E8259AF4CA00DB456B /* Manager */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		564A40D8259AF11D00DB456B /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				564A40E6259AF4B700DB456B /* Controller */,
+				564A40E5259AF4B000DB456B /* View */,
+				564A40E4259AF4A900DB456B /* Model */,
+				564A40E3259AF4A300DB456B /* Manager */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		564A40D9259AF12F00DB456B /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				564A40E2259AF49500DB456B /* Controller */,
+				564A40E1259AF48D00DB456B /* View */,
+				564A40E0259AF47800DB456B /* Model */,
+				564A40DF259AF47100DB456B /* Manager */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		564A40DF259AF47100DB456B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5607F5F825A1CAD900F7D4E1 /* GLPostDetailManager.h */,
+				5607F5F925A1CAD900F7D4E1 /* GLPostDetailManager.m */,
+				560BE5B4259F7DF600369103 /* GLPostBasicManager.h */,
+				560BE5B5259F7DF600369103 /* GLPostBasicManager.m */,
+				560BE5B7259F7E2A00369103 /* GLPostSubmitManager.h */,
+				560BE5B8259F7E2A00369103 /* GLPostSubmitManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		564A40E0259AF47800DB456B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				560BE59F259F654500369103 /* GLPost.h */,
+				560BE5A0259F654500369103 /* GLPost.m */,
+				560BE5A5259F655F00369103 /* GLComment.h */,
+				560BE5A6259F655F00369103 /* GLComment.m */,
+				560BE5A8259F658200369103 /* GLSubComment.h */,
+				560BE5A9259F658200369103 /* GLSubComment.m */,
+				5607F5F325A0AFEA00F7D4E1 /* GLPostBasic.h */,
+				5607F5F425A0AFEA00F7D4E1 /* GLPostBasic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		564A40E1259AF48D00DB456B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				564A40FD259AF95000DB456B /* GLPostBasicTableViewCell.h */,
+				564A40FE259AF95000DB456B /* GLPostBasicTableViewCell.m */,
+				5607F5FB25A1CC9B00F7D4E1 /* GLCommentTableViewCell.h */,
+				5607F5FC25A1CC9B00F7D4E1 /* GLCommentTableViewCell.m */,
+				5607F5FE25A1DB8C00F7D4E1 /* GLSubCommentTableViewCell.h */,
+				5607F5FF25A1DB8C00F7D4E1 /* GLSubCommentTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		564A40E2259AF49500DB456B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				564A40FA259AF90600DB456B /* GLMainPageViewController.h */,
+				564A40FB259AF90600DB456B /* GLMainPageViewController.m */,
+				564A40F7259AF8E600DB456B /* GLPostBasicTableViewController.h */,
+				5607F5F625A0D79C00F7D4E1 /* GLPostBasicTableViewController.m */,
+				564A4123259BA69C00DB456B /* GLPostDetailViewController.h */,
+				564A4124259BA69C00DB456B /* GLPostDetailViewController.m */,
+				560BE59C259F450700369103 /* GLPostSubmitViewController.h */,
+				560BE59D259F450700369103 /* GLPostSubmitViewController.m */,
+				5607F62F25A832ED00F7D4E1 /* GLPostCommentViewController.h */,
+				5607F63025A832ED00F7D4E1 /* GLPostCommentViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		564A40E3259AF4A300DB456B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				564A4186259E4DE100DB456B /* GLNoticeManager.h */,
+				564A4187259E4DE100DB456B /* GLNoticeManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		564A40E4259AF4A900DB456B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5607F61325A7377700F7D4E1 /* GLNotice.h */,
+				5607F61425A7377700F7D4E1 /* GLNotice.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		564A40E5259AF4B000DB456B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5607F61625A746A000F7D4E1 /* GLNoticeTableViewCell.h */,
+				5607F61725A746A100F7D4E1 /* GLNoticeTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		564A40E6259AF4B700DB456B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				564A4100259AF9F800DB456B /* GLNoticePageViewController.h */,
+				564A4101259AF9F800DB456B /* GLNoticePageViewController.m */,
+				564A413B259BB77300DB456B /* GLNoticeTableViewController.h */,
+				564A413C259BB77300DB456B /* GLNoticeTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		564A40E8259AF4CA00DB456B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				564A4156259CE0A200DB456B /* GLUserManager.h */,
+				564A4157259CE0A200DB456B /* GLUserManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		564A40E9259AF4D000DB456B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5607F60425A2D42800F7D4E1 /* GLUserBaseInfo.h */,
+				5607F60525A2D42800F7D4E1 /* GLUserBaseInfo.m */,
+				5607F60725A2D43F00F7D4E1 /* GLUserInfo.h */,
+				5607F60825A2D43F00F7D4E1 /* GLUserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		564A40EA259AF4D700DB456B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				564A4150259CD0A700DB456B /* GLUserListTableViewCell.h */,
+				564A4151259CD0A700DB456B /* GLUserListTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E04248808B5667132968F2A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AB06259716AA5EAED48BCA5 /* libPods-Geeklanet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564A40B7259A4E8600DB456B /* Geeklanet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A40CE259A4E8800DB456B /* Build configuration list for PBXNativeTarget "Geeklanet" */;
+			buildPhases = (
+				616DE7778EC34CA237573FC6 /* [CP] Check Pods Manifest.lock */,
+				564A40B4259A4E8600DB456B /* Sources */,
+				564A40B5259A4E8600DB456B /* Frameworks */,
+				564A40B6259A4E8600DB456B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geeklanet;
+			productName = Geeklanet;
+			productReference = 564A40B8259A4E8600DB456B /* Geeklanet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564A40B0259A4E8600DB456B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "A_Jo-Smilyt";
+				TargetAttributes = {
+					564A40B7259A4E8600DB456B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 564A40B3259A4E8600DB456B /* Build configuration list for PBXProject "Geeklanet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564A40AF259A4E8600DB456B;
+			productRefGroup = 564A40B9259A4E8600DB456B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564A40B7259A4E8600DB456B /* Geeklanet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564A40B6259A4E8600DB456B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A40C5259A4E8800DB456B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		616DE7778EC34CA237573FC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geeklanet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564A40B4259A4E8600DB456B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5607F60025A1DB8C00F7D4E1 /* GLSubCommentTableViewCell.m in Sources */,
+				5607F63125A832ED00F7D4E1 /* GLPostCommentViewController.m in Sources */,
+				560BE59E259F450700369103 /* GLPostSubmitViewController.m in Sources */,
+				560BE5A7259F655F00369103 /* GLComment.m in Sources */,
+				564A4158259CE0A200DB456B /* GLUserManager.m in Sources */,
+				564A413D259BB77300DB456B /* GLNoticeTableViewController.m in Sources */,
+				564A40FF259AF95000DB456B /* GLPostBasicTableViewCell.m in Sources */,
+				560BE5A1259F654500369103 /* GLPost.m in Sources */,
+				564A4149259CB13500DB456B /* GLAccountConfigurator.m in Sources */,
+				564A4113259AFC5500DB456B /* GLPostAPI.m in Sources */,
+				5607F5F725A0D79D00F7D4E1 /* GLPostBasicTableViewController.m in Sources */,
+				5607F62925A7FE2200F7D4E1 /* GLUserListTableViewController.m in Sources */,
+				564A413A259BB3BD00DB456B /* GLNoticeConfigurator.m in Sources */,
+				564A4137259BB3AC00DB456B /* GLPostConfigurator.m in Sources */,
+				5607F5FA25A1CAD900F7D4E1 /* GLPostDetailManager.m in Sources */,
+				5607F62A25A7FE2200F7D4E1 /* GLUserHomePageViewController.m in Sources */,
+				5607F5F525A0AFEA00F7D4E1 /* GLPostBasic.m in Sources */,
+				564A4110259AFC4900DB456B /* GLUserAPI.m in Sources */,
+				564A4134259BB39B00DB456B /* GLUserConfigurator.m in Sources */,
+				564A4125259BA69C00DB456B /* GLPostDetailViewController.m in Sources */,
+				564A40FC259AF90600DB456B /* GLMainPageViewController.m in Sources */,
+				564A411F259AFC9D00DB456B /* Utilites.m in Sources */,
+				564A40CB259A4E8800DB456B /* main.m in Sources */,
+				564A4119259AFC7100DB456B /* GLTagAPI.m in Sources */,
+				5607F60625A2D42800F7D4E1 /* GLUserBaseInfo.m in Sources */,
+				564A4152259CD0A700DB456B /* GLUserListTableViewCell.m in Sources */,
+				560BE5B9259F7E2A00369103 /* GLPostSubmitManager.m in Sources */,
+				564A415B259CE0EE00DB456B /* GLAPI.m in Sources */,
+				564A4102259AF9F800DB456B /* GLNoticePageViewController.m in Sources */,
+				5607F62B25A7FE2200F7D4E1 /* GLSettingTableViewController.m in Sources */,
+				560BE5AA259F658200369103 /* GLSubComment.m in Sources */,
+				5607F62825A7FE2200F7D4E1 /* GLUserPageViewController.m in Sources */,
+				5607F60925A2D43F00F7D4E1 /* GLUserInfo.m in Sources */,
+				560F10B525A846500066ACB9 /* GLTabBarViewController.m in Sources */,
+				564A4131259BB38F00DB456B /* GLGlobalConfigurator.m in Sources */,
+				564A40BD259A4E8600DB456B /* AppDelegate.m in Sources */,
+				560BE5B6259F7DF600369103 /* GLPostBasicManager.m in Sources */,
+				5607F61825A746A100F7D4E1 /* GLNoticeTableViewCell.m in Sources */,
+				564A4116259AFC6300DB456B /* GLNoticeAPI.m in Sources */,
+				5607F61525A7377700F7D4E1 /* GLNotice.m in Sources */,
+				564A411C259AFC8400DB456B /* GLAchievementAPI.m in Sources */,
+				564A4188259E4DE100DB456B /* GLNoticeManager.m in Sources */,
+				5607F5FD25A1CC9B00F7D4E1 /* GLCommentTableViewCell.m in Sources */,
+				5607F62725A7FE2200F7D4E1 /* GLAccountViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		564A40CC259A4E8800DB456B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		564A40CD259A4E8800DB456B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564A40CF259A4E8800DB456B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B9826465D10F6783F4F3FE /* Pods-Geeklanet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Geeklanet/AppEntry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "A-Jo-Smilyt.Geeklanet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		564A40D0259A4E8800DB456B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F00469AEFC2E9228AA471BF /* Pods-Geeklanet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Geeklanet/AppEntry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "A-Jo-Smilyt.Geeklanet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564A40B3259A4E8600DB456B /* Build configuration list for PBXProject "Geeklanet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A40CC259A4E8800DB456B /* Debug */,
+				564A40CD259A4E8800DB456B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A40CE259A4E8800DB456B /* Build configuration list for PBXNativeTarget "Geeklanet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A40CF259A4E8800DB456B /* Debug */,
+				564A40D0259A4E8800DB456B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564A40B0259A4E8600DB456B /* Project object */;
+}
